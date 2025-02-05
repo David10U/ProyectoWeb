@@ -1,3 +1,7 @@
+<?php
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/Proyecto/Controller/LoginController.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +39,7 @@
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Crear Cuenta</h1>
                             </div>
-                            <form class="user">
+                            <form action="" class="user">
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-user"
                                     placeholder="Identificación" id="txtIdentificacion" name="txtIdentificacion">

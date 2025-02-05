@@ -1,3 +1,7 @@
+<?php
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/Proyecto/Controller/LoginController.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
