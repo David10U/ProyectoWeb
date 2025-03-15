@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php PrintHeader(); ?>
+<?php PrintCss(); ?>
 
 <body class="bg-gradient-primary">
 
@@ -34,7 +34,7 @@
                                 }
                             ?>
                             
-                            <form action="" method="POST" class="user">
+                            <form action="" method="POST">
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-user"
                                     placeholder="Identificación" id="txtIdentificacion" name="txtIdentificacion"
@@ -73,7 +73,7 @@
 
     </div>
 
-    <?php PrintFooter(); ?>
+    <?php PrintScript(); ?>
 
 </body>
 
